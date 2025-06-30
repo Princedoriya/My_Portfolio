@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar"
 import AboutSection from "./sections/AboutSection"
-import Contact from "./sections/Contect"
+import Contact from "./sections/Contact"
 import FeatureCards from "./sections/FeatureCards"
 import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
