@@ -1,15 +1,14 @@
 
-const Button = ({ text, className, id }) => {
+const Button = ({ text, className, id, scrollTargetId }) => {
   return (
     <a
       onClick={(e) => {
         e.preventDefault(); // Stop the link from jumping instantly
 
-        const target = document.getElementById("counter"); // Find the section with ID "counter"
+        const target = document.getElementById(scrollTargetId); // Find the section with the given scrollTargetId
 
-        // Only scroll if we found the section and an ID is passed in
-        // that prevents the contact button from scrolling to the top
-        if (target && id) {
+        // Only scroll if we found the section and scrollTargetId is passed in
+        if (target && scrollTargetId) {
           const offset = window.innerHeight * 0.15; // Leave a bit of space at the top
 
           // Calculate how far down the page we need to scroll
