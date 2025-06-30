@@ -1,12 +1,50 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React and Vite. It showcases my skills, projects, and experience, and includes a contact form to get in touch.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design for mobile, tablet, and desktop devices
+- Smooth animations and transitions
+- Sections include About Me, Skills, Projects, and Contact
+- Contact form with send message functionality
+- Interactive social media links
+- Built with React, Vite, and Tailwind CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```
+   git clone https://github.com/Princedoriya/My_Portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd My_Portfolio
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Run the development server:
+   ```
+   npm run dev
+   ```
+
+## Build
+
+To create a production build, run:
+```
+npm run build
+```
+
+## Deployment
+
+You can deploy this project easily on platforms like Vercel by connecting your GitHub repository.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to customize this README further to add more details about your projects or technologies used.
