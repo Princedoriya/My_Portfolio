@@ -1,4 +1,4 @@
-import NavBar from "./components/Navbar"
+import NavBar from "./components/NavBar"
 import AboutSection from "./sections/AboutSection"
 import Contact from "./sections/Contect"
 import FeatureCards from "./sections/FeatureCards"
